@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    background-color: #eef2f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #007bff, #6c757d);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #343a40 !important;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* To-Do Icon */
+.todo-icon {
+    width: 100px;
+    height: auto;
+}
+
+/* Input Styles */
+#taskInput {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#addTaskBtn {
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+/* List Group Styles */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: #f8f9fa;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    background-color: #e8f4ff;
+}
+
+/* Delete Button */
+.list-group-item button {
+    border: none;
+    background: transparent;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list-group-item button:hover {
+    color: darkred;
+}
+
+/* Task Text Styling */
+.list-group-item span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Profile Section */
+#profile .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+#profile .card:hover {
+    transform: scale(1.03);
+}
+
+/* About Section */
+#about {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #dddddd;
+}
